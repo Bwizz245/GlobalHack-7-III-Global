@@ -9,3 +9,18 @@ p{
   font-size: 1.25rem;
   padding-bottom: 20px;
 }
+
+nav{
+  position: fixed;
+  top: 0;
+}
+.navShift {
+  margin-top: 70px;
+}
+.form-inline{
+  list-style-type: :none;
+
+}
+ul{
+  list-style-type: :none;
+}

@@ -1,15 +1,9 @@
 .jumbotron{
   text-align: center;
-  width: 90%;
   margin: auto;
-  margin-top: 10px;
 }
 .body{
   font-family: 'Merriweather', serif;
-}
-#signup {
-  text-align: center;
-  width:
 }
 h1 {
   text-align: center;
@@ -43,7 +37,7 @@ video {
   background-color:#000000;
 }
 .hhh{
-  list-style-type: :none;
+  list-style:none;
 }
 
 li {
@@ -51,4 +45,12 @@ li {
 }
 .navShift {
   padding-top: 100px;
+}
+
+.jumbotron{
+  margin-top: 70px;
+  border-radius: 1rem;
+}
+.col-md.6 {
+  margin-top: 70px;
 }

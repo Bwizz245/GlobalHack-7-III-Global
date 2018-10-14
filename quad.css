@@ -8,4 +8,25 @@ body {
 p{
   font-size: 1.25rem;
   padding-bottom: 20px;
+
+}
+.li {
+  list-style: none;
+}
+
+img{
+  size: 70%;
+}
+.hhh{
+  list-style:none;
+}
+.navShift {
+  margin-top: 80px;
+}
+#spacey{
+  margin-top: 10px
+}
+.foot{
+  background-color: #6DBDDE;
+  width: 100%
 }

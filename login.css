@@ -44,3 +44,12 @@ video {
 .1234{
   background-color:#000000;
 }
+.row {
+  margin-top: 70px;
+}
+li {
+  list-style: none;
+}
+.navShift {
+  margin-top: 70px;
+}

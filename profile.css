@@ -21,3 +21,20 @@ body {
 body{
   font-family: 'Merriweather', serif;
 }
+#hih{
+  font-size:40px;
+  color:#6dbdde;
+}
+.hhh{
+  list-style:none;
+}
+
+li {
+  list-style: none;
+}
+.navShift {
+  margin-top: 70px;
+}
+.beans{
+  height: 53px;
+}

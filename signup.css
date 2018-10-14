@@ -58,3 +58,16 @@ body {
 .edu1v1 {
   border-bottom: 15px;
 }
+
+li {
+  list-style: none;
+}
+
+
+.person-card {
+  margin-top: 10em;
+}
+
+.btn-primary{
+  text-align: center;
+}

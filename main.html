@@ -3,7 +3,7 @@
   <head>
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="main.css">
     <meta charset="utf-8">
     <title>III Global</title>
   </head>
@@ -23,8 +23,8 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-  <ul class="navbar-nav mr-auto">
-    <li class="nav-item active">
+  <ul style="list-style-type: none;"class="navbar-nav mr-auto">
+    <li style="list-style-type: none;"class="nav-item active">
       <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
     </li>
 
@@ -32,6 +32,17 @@
 
     </li>
   </ul>
+  <li style="list-style-type: none;"class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Resources
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a class="dropdown-item" href="profile.html">Resources</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="quad.html">The Skill Quadrant</a>
+      <a class="dropdown-item" href="buddy.html">Hand in Hand</a>
+    </div>
+  </li>
   <form class="form-inline my-2 my-lg-0">
 
     <a class="nav-link" href="login.html">Login <span class="sr-only">(current)</span></a>
@@ -40,25 +51,25 @@
 </div>
 </nav>
 
-<div class="navShift">
+<div style="margin-top: 100px;" class="row">
+  <div class="col-md-6">
+    <div style="width: 90%; margin-left: 8%; margin-bottom: 10px;" class="jumbotron">
+      <h1 style="margin-bottom: 10px;" >Community</h1>
+      <a class="btn btn-primary" href="buddy.html" role="button">Hand in Hand</a>
+      <a style="margin-left: 5px;" class="btn btn-primary" href="http://www.slha.org/for-residents/public-housing/applying-for-public-housing/" role="button">Housing Options</a>
+    </div>
+  </div>
 
+  <div class="col-md-6">
+    <div style="width: 90%; margin-right: 8%; margin-bottom: 10px;" class="jumbotron">
+      <h1 style="margin-bottom: 10px;" >Career</h1>
+      <a class="btn btn-primary" href="quad.html" role="button">Quadrant</a>
+      <a class="btn btn-primary" href="https://atwork.appvault.com/stlpostdispatch/?origin=search-widget&utm_source=stltoday.com&utm_medium=Website&utm_campaign=Lee&v=stlpostdispatchrms&category=00000000-0000-0000-0000-000000000000&keyword" role="button">Local Jobs</a>
+      <a class="btn btn-primary" href="https://www.resume-now.com/lp/rnarsmsm63.aspx?utm_source=bing&utm_medium=sem&utm_campaign=51646822&utm_term=resume%20maker&network=o&device=c&adposition={adposition}&adgroupid=1232470541&msclkid=1bb6327f29ff1829ba6769bdab9721b4" role="button">Resume Maker</a>
+
+    </div>
+  </div>
 </div>
-
-<!-- Jumbotron -->
-
-<div class="jumbotron">
-  <video width="420" height="150" autoplay>
-  <source src="globalise.mp4" type="video/mp4">
-</video>
-
-
-  <p class="lead">Immigration, Integration, Innovation Global</p>
-  <p class="lead">Easy Access To Recources For Foreign-Born Individuals. </p>
-  <hr class="my-4">
-  <a class="btn btn-primary btn-lg" href="signup.html" role="button">Get Started</a>
-</div>
-
-
 
 
 
