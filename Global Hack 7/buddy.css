@@ -1,0 +1,11 @@
+body {
+  text-align: center;
+}
+.body{
+  font-family: 'Merriweather', serif;
+  background-color: #6DBDDE;
+}
+p{
+  font-size: 1.25rem;
+  padding-bottom: 20px;
+}
