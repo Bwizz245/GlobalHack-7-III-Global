@@ -1,0 +1,10 @@
+body {
+  text-align: center;
+}
+.body{
+  font-family: 'Merriweather', serif;
+}
+p{
+  font-size: 1.25rem;
+  padding-bottom: 20px;
+}

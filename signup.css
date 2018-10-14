@@ -1,0 +1,60 @@
+body {
+    background-color: #6DBDDE;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
+.card {
+    margin-top: 1em;
+}
+
+.person-card {
+    margin-top: 5em;
+    padding-top: 5em;
+}
+.person-card .card-title{
+    text-align: center;
+}
+.person-card .person-img{
+    width: 10em;
+    position: absolute;
+    top: -5em;
+    left: 50%;
+    margin-left: -5em;
+    border-radius: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+.divsign {
+    background-color: white;
+    margin-top: 3%;
+}
+.row {
+  margin-bottom: 3%;
+}
+
+#who_message {
+  text-align: center;
+}
+
+.inputSign {
+  width: 75px;
+}
+
+.signUpEdu {
+  text-align: center;
+}
+/* body {
+  text-align: center;
+}
+/* .txt {
+  text-align: center;
+}
+.input-group-text{
+  text-align:center;
+} */
+.edu1v1 {
+  border-bottom: 15px;
+}

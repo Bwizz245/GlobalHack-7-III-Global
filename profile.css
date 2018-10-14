@@ -1,0 +1,23 @@
+.container {
+  /* padding-left: 12%; */
+  background-color: white;
+}
+#row {
+  padding-left: auto;
+  margin-top: 15px;
+  padding-top: 5px;
+  border-radius: 5px;
+}
+.col-sm-4 {
+  text-align: center;
+}
+body {
+  background-color: #6DBDDE;
+}
+.header{
+  color: black;
+  font-size: 25px;
+}
+body{
+  font-family: 'Merriweather', serif;
+}
